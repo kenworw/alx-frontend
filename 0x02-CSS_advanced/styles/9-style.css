@@ -27,7 +27,7 @@ html{
 
 a{
     color:var(--text-color);
-    text-decoration-style: none;
+    text-decoration: none;
 }
 .visually-hidden {
     display: none;
