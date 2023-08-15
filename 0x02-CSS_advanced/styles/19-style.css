@@ -184,7 +184,7 @@ html{
     --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover: var(--color-primary);
 
-    --section-tagline-mergin: 0;
+    --section-tagline-margin: 0;
 }
 
 a:link{
