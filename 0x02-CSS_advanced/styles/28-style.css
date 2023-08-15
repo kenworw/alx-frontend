@@ -427,7 +427,7 @@ color: var(--color-primary);
     padding: var(--header-padding);
 }
 
-.header-logo{
+.header-logo a{
     position: var(--header-logo-position);
 }
 
