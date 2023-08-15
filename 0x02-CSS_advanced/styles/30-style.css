@@ -457,7 +457,7 @@ color: var(--color-primary);
     overflow: hidden;
 }
 
-.card-work .card-image{
+.card-work .card-image img{
     height: 30rem;
     width: 100%;
     object-fit: cover;
