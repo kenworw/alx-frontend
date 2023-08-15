@@ -164,16 +164,18 @@ html{
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
+
     --section-header-align: center;
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
+    
     --section-padding: 5rem 0;
     --section-header-padding: 0 0 3rem;
     --section-body-padding: 0 3rem;
     --section-footer-padding:3 rem 0 0;
-    --section-footer-align: center;
     --footer-padding: 5rem 0 1rem;
+    --section-footer-align: center;
 
 }
 
@@ -203,10 +205,10 @@ a:active{
     text-align:var(--section-header-align);
     padding: var(--section-header-padding);
 }
-.secttion-body{
+.section-body{
     padding: var(--section-body-padding);
 }
-.secttion-footer{
+.section-footer{
     padding: var(--section-footer-padding);
     text-align: var(--section-footer-align);
 }
