@@ -164,42 +164,36 @@ html{
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
-
     --section-header-align: center;
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
-    
+
     --section-padding: 5rem 0;
     --section-header-padding: 0 0 3rem;
-    --section-body-padding: 0 3rem;
+    --section-body-padding: 0 0 3rem;
     --section-footer-padding:3 rem 0 0;
     --section-footer-align: center;
     --footer-padding: 5rem 0 1rem;
-    
+
 }
 
 a:link{
     color:var(--text-color);
     text-decoration: none;
 }
-
 a:visited{
    font-style: italic; 
 }
-
 a:hover{
     text-decoration: underline;
 }
-
 a:active{
     background-color: var(--color-light-grey);
 }
-
 .visually-hidden {
     display: none;
 }
-
 .card-category {
     color:var(--color-primary);
 }
@@ -207,6 +201,7 @@ a:active{
 .section{
     padding: var(--section-padding);
 }
+
 .section-header{
     text-align:var(--section-header-align);
     padding: var(--section-header-padding);
@@ -218,7 +213,6 @@ a:active{
 
 .section-footer{
     padding: var(--section-footer-padding);
-    text-align: var(--section-footer-align);
 }
 
 .section-title{
@@ -228,14 +222,12 @@ a:active{
     margin: var(--section-title-margin);
     color: var(--section-title-color);
 }
-
 .section-tagline {
     color:var(--color-primary);
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
 }
-
 .container{
     width: 960px;
     margin-left: auto;
@@ -259,6 +251,7 @@ h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
 }
+
 .footer{
     padding: var(--footer-padding);
 }
